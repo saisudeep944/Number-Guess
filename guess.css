@@ -1,0 +1,51 @@
+.box
+{
+    height: 400px;
+    background-color: black;
+    margin-top: 50px;
+}
+h1{
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin-left: 450px;
+
+}
+.num
+{
+    display: flex;
+    margin-left: 500px;
+    padding-top: 30px;
+}
+.but
+{
+    margin-left: 500px;
+}
+
+.hg
+{
+    font-size: 15px;
+    background-color: chartreuse;
+}
+.hg:hover{
+    background-color: aliceblue;
+  
+}
+.dis
+{
+    height: 50px;
+    width: 500px;
+    background-color: aliceblue;
+    margin-left: 500px;
+    margin-top: 50px;
+    border-radius: 20px;
+    
+}
+#res
+{
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding-top: 10px
+
+}

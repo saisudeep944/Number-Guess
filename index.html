@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./guess.css">
+    <title>Number Guess</title>
+</head>
+<body>
+    <script src="./guess.js"></script>
+    <h1 >Number Guess Game</h1>
+    <div class="box">
+        <div class="num">
+            
+            <h2 style="color: aliceblue;">Enter a Number :</h2>
+            <form>
+            <input type="number" id="n1" style="margin-top: 24px; margin-left: 30px;">
+            </form>
+        </div>
+        <br>
+        <br>
+        <div class="but">
+        <input type="submit" value="Check" onclick="chec()" class="hg">
+        <input type="submit" value="Reload" onclick="window.location.reload()" class="hg">
+        </div>
+        <br>
+      
+        <div id="res" class="dis">
+
+        </div>
+    </div>    
+</body>
+</html>
